@@ -1,0 +1,1 @@
+rtmp://localhost/live/beruang_bernard.mp4rtmp://localhost/live/url.txtrtmp://localhost/live/.streaming.swprtmp://localhost/live/.streaming.swpxrtmp://localhost/live/.streaming.swprtmp://localhost/live/.streaming.py.swprtmp://localhost/live/.streaming.py.swxrtmp://localhost/live/.streaming.py.swp
