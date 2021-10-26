@@ -20,8 +20,7 @@ for event in notifier.event_gen():
                 f.write(f"{stream_url}\n")
 
             try:
-                # p = subprocess.Popen(f"ffmpeg -re -i {INPUT_FILE_NAME} -c copy -f flv rtmp://157.245.197.168/live/{STREAM_NAME}")
-                p = subprocess.Popen(["ffmpeg -re -i {INPUT_FILE_NAME} -c copy -f flv {stream_url}"],
+                p = subprocess.Popen(["ffmpeg -re -stream_loop -1 -i /data/streaming/*.mp4 -c copy -f flv rtmp://157.245.197.168/live/{STREAM_NAME}"],
                                         shell=True,
                                         stdout=subprocess.PIPE,
                                         stderr=subprocess.STDOUT
